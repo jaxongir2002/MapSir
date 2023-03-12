@@ -13,10 +13,10 @@
 
            <div class=" d-flex bpx  align-items-center">
               
-                   <img src="../assets/image 2.png" alt="" class="Logo">
+                   <img src="../assets/image2.png" alt="" class="Logo">
                    <h5 class="text-light p-2 srt">Sirdaryo viloyati hokimligi</h5>
               
-                   <img src="../assets/Logo_IT_Park_Uzbekistan 2.png" alt="" class=" Logo_IT">
+                   <img src="../assets/Logo_IT_Park_Uzbekistan2.png" alt="" class=" Logo_IT">
 
         
            </div>
