@@ -1,5 +1,4 @@
 <script setup>
-import Slider from '@vueform/slider'
 import navbarVue from "./navbar.vue";
 import footerVue from "./footer.vue";
 
@@ -8,11 +7,7 @@ let value = ref(2022)
 let active = ref(false);
 let active3 = ref(false)
 
-const isActive = ref(true);
-const hasError = ref(false);
-const toggleMenu = () => {
-  active.value = !active.value;
-};
+
 
 let active2 = ref(false);
 
@@ -93,10 +88,9 @@ const toggleMenu2 = () => {
     </div>
 </div>
 
-    
-
+ 
   
-    <div :class="{ silider2: active2 }">
+  <div :class="{ silider2: active2 }"  class="  position-absolute">
       <p class=" text-light text-center">
 2022 -
   </p>
@@ -112,12 +106,16 @@ const toggleMenu2 = () => {
   </p>
     </div>
 
+
+ 
+   
+
     <footerVue></footerVue>
   </div>
 </template>
 
 <style  >
-@import url('@vueform/slider/themes/default.css');
+
 
 .right {
   background-color: red;
@@ -202,8 +200,6 @@ span {
   position: absolute;
   z-index: 9999;
   top: 18%;
-
-
 }
 
 .ish2 {
@@ -228,5 +224,6 @@ span {
   top: 18%;
   left: 3%;
   background: rgb(0, 0, 0);
+
  
 }</style>

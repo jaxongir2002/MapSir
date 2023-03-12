@@ -13,7 +13,7 @@
 
            <div class=" d-flex bpx  align-items-center">
               
-                   <img src="../assets/cde54a0e5bea5a7abcc6b5fd89249876-removebg-preview.png" alt="" class="Logo">
+                   <img src="../assets/image 2.png" alt="" class="Logo">
                    <h5 class="text-light p-2 srt">Sirdaryo viloyati hokimligi</h5>
               
                    <img src="../assets/Logo_IT_Park_Uzbekistan 2.png" alt="" class=" Logo_IT">
@@ -27,7 +27,15 @@
 
 </template>
 
+<script>
+export default {
+    setup(){
 
+        return {}
+    }
+}
+
+</script>
 
 
 <style >
@@ -91,6 +99,3 @@ ul{
 
 
 
-<script>
-
-</script>
