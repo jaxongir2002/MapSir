@@ -1,7 +1,7 @@
 <template>
     <div>
-        <footer>
-           <ul>
+        <footer class="d-flex w-100 gap-lg-5">
+           <ul class=" mt-4 justify-content-sm-evenly ">
                 <li class="link4 linkb text-center">KO`CHA NOMLARI <i class="fas fa-power-off"></i></li>
                 <li class="link5 linkb text-center">DAVLAT TASHKILOTLARI <i class="fas fa-power-off"></i></li>
                 <li class="link6 linkb text-center">ARXITEKTURA MEROSLARI <i class="fas fa-power-off"></i></li>
@@ -11,15 +11,15 @@
            </ul>
 
 
-           <!-- <div class="quti">
+           <div class=" d-flex bpx  align-items-center">
               
-                   <img src="../assets/cde54a0e5bea5a7abcc6b5fd89249876-removebg-preview.png" alt="">
-                   <h5>Sirdaryo viloyati hokimligi</h5>
+                   <img src="../assets/cde54a0e5bea5a7abcc6b5fd89249876-removebg-preview.png" alt="" class="Logo">
+                   <h5 class="text-light p-2 srt">Sirdaryo viloyati hokimligi</h5>
               
-                   <img src="../assets/Logo_IT_Park_Uzbekistan 2.png" alt="">
+                   <img src="../assets/Logo_IT_Park_Uzbekistan 2.png" alt="" class=" Logo_IT">
 
         
-           </div> -->
+           </div>
 
 
         </footer>
@@ -32,6 +32,9 @@
 
 <style >
 
+.srt{
+    width: 30%;
+}
 footer{
     width: 100%;
     height: 13vh;
@@ -42,6 +45,7 @@ ul{
     list-style: none;
     display: flex;
     color: white;
+  
 }
 .link4{
     width: 5% !important;
@@ -65,16 +69,20 @@ ul{
     width: 8% !important;
 }
 .linkb{
-   margin: 20px;
+ 
    cursor: pointer;
 }
-.linkb:active{
+.linkb:hover{
     color: #05E009;
 }
-.quti{
-    width: 40%;
-    border: solid black;
-    display: flex;
+
+.Logo_IT{
+    width: 200px;
+    height: 60px;
+}
+.Logo{
+    width: 100px;
+    height: 100px;
 }
 
 </style>
