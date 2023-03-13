@@ -3,35 +3,31 @@
     <nav class=" ">
       <div class="container-fluid d-flex justify-content-between">
         <div class="logo gap-1">
-          <img src="../assets/logo.png" alt="">
-          <h4 class="text1 mt-3">Age<h4 class="text2 mt-3">Syrdarya
+          <img src="../assets/logo.png" alt="" />
+          <h4 class="text1 mt-3">
+            Age
+            <h4 class="text2 mt-3">
+              Syrdarya
               <i class="fas fa-angle-down"></i>
             </h4>
           </h4>
           <div class="dropdown-content">
-            <a href="#">Boyovut tumani
-              Guliston shahar
-              Guliston tumani
-              Mirzaobod tumani
-              Oqoltin tumani
-              Sardoba tumani
-              Sayxunobod tumani
-              Shirin shahar
-              Sirdaryo tumani
-              Xovos tumani
-              Yangiyer shahar </a>
-
+            <a href="#"
+              >Boyovut tumani Guliston shahar Guliston tumani Mirzaobod tumani Oqoltin
+              tumani Sardoba tumani Sayxunobod tumani Shirin shahar Sirdaryo tumani Xovos
+              tumani Yangiyer shahar
+            </a>
           </div>
         </div>
 
-        <div class="d-flex  w-50 justify-content-center gap-3 ">
+        <div class="d-flex w-50 justify-content-center gap-3 link_media">
+          <ul class="linkbox d-flex mt-2 align-items-center ">
+            <li class=" link p-2">Loyiha haqida</li>
+            <li class=" link p-2">Infografika</li>
+            <li class=" link p-2">Biz bilan bog’lanish</li>
 
-          <ul class="linkbox d-flex mt-2 align-items-center">
-            <li class="link1 link ">Loyiha haqida</li>
-            <li class="link2 link">Infografika</li>
-            <li class="link3 link">Biz bilan bog’lanish</li>
-
-            <button class="knopka link">Uzb <i class="fas fa-angle-down"></i>
+            <button class="knopka link">
+              Uzb <i class="fas fa-angle-down"></i>
               <div class="dropdown1-content">
                 <a href="#">Uzb </a>
                 <a href="#">Ўзб</a>
@@ -39,32 +35,31 @@
                 <a href="#">Eng </a>
               </div>
             </button>
-
           </ul>
 
-
           <div class="text-light gap-3 d-flex justify-content-around align-items-center">
-            <lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="hover"
-              colors="primary:#ffffff,secondary:#ffffff" style="width:40px;height:40px">
+            <lord-icon
+              src="https://cdn.lordicon.com/msoeawqm.json"
+              trigger="hover"
+              colors="primary:#ffffff,secondary:#ffffff"
+              style="width: 40px; height: 40px"
+            >
             </lord-icon>
             <i class="fab fa-instagram fs-3"></i>
             <i class="fab fa-facebook-f fs-3"></i>
           </div>
         </div>
-
-
       </div>
     </nav>
   </div>
 </template>
 
-
-<script>
-
-
-</script>
+<script></script>
 
 <style>
+ @media only screen and (min-width: 1280px) {
+     
+    }
 .dropdown-content {
   display: none;
   position: absolute;
@@ -75,7 +70,6 @@
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 12;
   background-color: black;
-
 }
 
 .dropdown-content a {
@@ -97,7 +91,6 @@
   display: block;
 }
 
-
 .dropdown1-content {
   display: none;
   position: absolute;
@@ -108,7 +101,6 @@
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 12;
   background-color: black;
-
 }
 
 .dropdown1-content a {
@@ -126,23 +118,15 @@
   background-color: #ddd;
 }
 
-
-
-
-
 .knopka:hover .dropdown1-content {
   display: block;
 }
 
-
-
 nav {
   width: 100%;
   height: 7vh;
-  background-color: #01094F;
-
+  background-color: #01094f;
 }
-
 
 .logo {
   width: 20%;
@@ -154,15 +138,12 @@ nav {
 
 .text1 {
   display: inline-block;
-  color: #FFE500;
-
-
+  color: #ffe500;
 }
 
 .text2 {
   display: inline-block;
   color: white;
-
 }
 
 .linkbox {
@@ -171,20 +152,15 @@ nav {
 }
 
 .link {
-  margin: 10px;
+ 
   font-size: large;
   font-weight: bold;
-  font-family: 'Lucida Sans', ;
+  font-family: "Lucida Sans";
 }
 
 .knopka {
   border: none;
-  background-color: #01094F;
+  background-color: #01094f;
   color: white;
-  ;
 }
 </style>
-
-
-
-
