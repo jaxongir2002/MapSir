@@ -11,10 +11,12 @@
            </ul>
 
 
-           <div class=" d-flex bpx  align-items-center">
-              
-                   <img src="../assets/Gerb1.png" alt="" class="Logo">
-                   <h5 class="text-light p-2 srt">Sirdaryo viloyati hokimligi</h5>
+           <div class="d-flex position-relative align-items-center">
+              <div class="PS d-flex align-items-center">
+                <img src="../assets/Gerb1.png" alt="" class="Logo">
+                   <h5 class="text-light p-2 srt d-inline-block">Sirdaryo viloyati hokimligi</h5>
+              </div>
+                   
               
                    <img src="../assets/ITPARK.png" alt="" class=" Logo_IT">
 
@@ -87,10 +89,18 @@ ul{
 .Logo_IT{
     width: 200px;
     height: 60px;
+    position: fixed;
+    right: 0;
 }
 .Logo{
     width: 100px;
     height: 100px;
+    
+   
+}
+.PS{
+    position: fixed;
+    right: 100px; 
 }
 
 </style>

@@ -50,18 +50,8 @@ const toggleMenu2 = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-  <div class="left1 row w-50 " >
-      <div class="right " @click="toggleMenu2()">
+  <div class="left1" >
+      <div class="right" @click="toggleMenu2()">
         <i class="fas fa-angle-double-left text-white"></i>
       </div>
 
@@ -150,7 +140,6 @@ const toggleMenu2 = () => {
   background-color: red;
   position: absolute;
   right: 0;
-  
   width: 9%;
   height: 400px;
   display: flex;
@@ -167,9 +156,9 @@ span {
 
 }
 .left1{
-  width: 30% !important;
+  width: 25% !important;
   position: absolute;
-  top: 18%;
+  top: 23%;
   right: 0;
 }
 
@@ -183,7 +172,7 @@ span {
 }
 
 .box {
-  width: 48px;
+  width: 65px;
   height: 30px;
   cursor: pointer;
 
@@ -214,7 +203,9 @@ span {
 
 .silider2 {
   width: 90px;
-  height: 52vh;
+  position: fixed;
+right: 0;
+
   background: rgb(0, 0, 0);
 }
 
